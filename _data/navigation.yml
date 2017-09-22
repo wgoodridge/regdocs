@@ -1,0 +1,35 @@
+doc_list_title: Site Documentation
+
+toc:
+- title: Getting Started
+  subfolderitems:
+    - page: Background
+      url: #/pages/background.html
+    - page: Test2
+      url: #/pages/test-2.html
+    - page: Test3
+      url: #/pages/test-3.html
+- title: Templates
+  subfolderitems:
+    - page: SOP Template
+      url: /pages/sops/sop-template.html
+    - page: Piece2
+      url: #/piece2.html
+    - page: Piece3
+      url: #/piece3.html
+- title: Group3
+  subfolderitems:
+    - page: Widget1
+      url: #/widget1.html
+    - page: Widget2
+      url: #/widget2.html
+    - page: Widget3
+      url: #/widget3.html
+- title: Group4
+  subfolderitems:
+    - page: Gadget1
+      url: #/widget1.html
+    - page: Gadget2
+      url: #/widget2.html
+    - page: Gadget3
+      url: #/widget3.html

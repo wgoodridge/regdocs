@@ -1,0 +1,23 @@
+
+
+<div class="w3-bar-block  w3-container ">
+  <a href="{{site.baseurl}}/" class="w3-bar-item w3-button w3-margin-left w3-hover-light-grey">Home Page</a>
+
+  {% for myvar in site.data.navigation.toc %}
+    <button class="w3-button w3-block w3-left-align w3-hover-light-grey" onclick="myFunction('{{myvar.title}}')">
+    <b>{{myvar.title}}</b> <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="{{myvar.title}}" class="w3-hide w3-margin-left ">
+      {% for mylink in myvar.subfolderitems %}
+        {% if mylink.url == page.url%}
+          <a href="{{site.baseurl}}{{mylink.url}}" class="w3-bar-item w3-button w3-hover-light-grey"><b>{{mylink.page}}</b></a>
+        {% else %}
+          <a href="{{site.baseurl}}{{mylink.url}}" class="w3-bar-item w3-button w3-hover-light-grey">{{mylink.page}}</a>
+        {% endif %}
+
+
+      {% endfor %}
+    </div>
+  {% endfor %}
+
+</div>

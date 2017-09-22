@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>{{ page.title}} | {{ site.title }} </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+  // on refresh retrieve nav menu status from session storage
+  $(document).ready(function () {
+    var groups = {{site.data.navigation.toc | jsonify }};
+    for (i=0;i< groups.length; i++){
+      if(sessionStorage.getItem(groups[i].title)){
+        var selector = sessionStorage.getItem(groups[i].title);
+        $('#' + groups[i].title).addClass(selector);
+      }
+    }
+  });
+</script>
+
+<body>
+  <!--Header  -->
+  <div class="w3-container ">
+    {% include header.html %}
+  </div>
+
+  <!--Sidebar  -->
+  <div class="w3-row ">
+    <div class="w3-col s3 ">
+      <div class="">
+        {% include sidebar.html%}
+      </div>
+    </div>
+    <!--Page Content  -->
+    <div class="w3-col s9">
+      <div class="w3-container">
+        {{content}}
+      </div>
+      <!--Footer  -->
+      <div class="w3-container ">
+        {% include footer.html%}
+      </div>
+    </div>
+  </div>
+
+  <script>
+    //hide show menu items and save in session storage
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      var y = " ";
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+          x.className.replace("w3-hide", "");
+          y = "w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+          x.className += " w3-hide";
+          y = "w3-hide";
+      }
+      sessionStorage.setItem(id, y);
+    }
+  </script>
+</body>
+</html>
