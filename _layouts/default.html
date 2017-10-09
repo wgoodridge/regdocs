@@ -9,7 +9,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script type="text/javascript">
-  // on refresh retrieve nav menu status from session storage
+  // on refresh retrieve nav menu status from session storage use jquery
   $(document).ready(function () {
     var groups = {{site.data.navigation.toc | jsonify }};
     for (i=0;i< groups.length; i++){
@@ -19,6 +19,8 @@
       }
     }
   });
+
+
 </script>
 
 <body>
