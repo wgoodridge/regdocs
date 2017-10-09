@@ -1,14 +1,14 @@
 doc_list_title: Site Documentation
 
 toc:
-- title: Getting Started
+- title: Introduction
   subfolderitems:
     - page: Background
-      url: #/pages/background.html
+      url: /pages/getting-started/background.html
     - page: Test2
-      url: #/pages/test-2.html
+      url: /pages/getting-started/test2.html
     - page: Test3
-      url: #/pages/test-3.html
+      url: /pages/getting-started/test3.html
 - title: Templates
   subfolderitems:
     - page: SOP Template

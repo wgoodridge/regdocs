@@ -64,3 +64,14 @@ html {
         width: 100%;
     }
 }
+/*added by wg for markdown formatting*/
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border:1px solid #e5e5e5;
+}

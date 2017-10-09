@@ -15,7 +15,8 @@ The templates fill the gap between the high-level outlines provided in the stand
 |---|---|---|
 | sssssssss  |  ssssssssssss | sssssssssssss  |
 | xxxx   | xxxx   | xxxxx  |
-{:.w3-table .w3-border .w3-bordered}
+
+New Table
 
 | Header One     | Header Two     |
 | :------------- | :------------- |
