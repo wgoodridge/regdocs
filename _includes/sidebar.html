@@ -2,8 +2,9 @@
 
 <div class="w3-bar-block  w3-container ">
   <a href="{{site.baseurl}}/" class="w3-bar-item w3-button w3-margin-left w3-hover-light-grey">Home Page</a>
-
-  {% for myvar in site.data.navigation.toc %}
+  <a href="{{site.baseurl}}/about.html" class="w3-bar-item w3-button w3-margin-left w3-hover-light-grey">About This Site</a>
+  <a href="{{site.baseurl}}/start.html" class="w3-bar-item w3-button w3-margin-left w3-hover-light-grey">Getting Started</a>
+    {% for myvar in site.data.navigation.toc %}
     <button class="w3-button w3-block w3-left-align w3-hover-light-grey" onclick="myFunction('{{myvar.title}}')">
     <b>{{myvar.title}}</b> <i class="fa fa-caret-down"></i>
     </button>

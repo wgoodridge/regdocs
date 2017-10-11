@@ -2,7 +2,7 @@ name: Documenting and Testing
 title: Documenting Regulated Applications
 subtitle: A Practical Guide
 url:
-description: Website with templates, and examples for documenting and testing regulated applications. Templates are based on GAMP5, and ISO security standards with detailed instructions for easy customization.
+description: Website with templates for quickly documenting and testing regulated applications to FDA and EMEA regulations. Templates are based on GAMP best practices and ISO security standards with detailed instructions for easy customization.
 baseurl: /regdocs
 url: https://wgoodridge.github.io/regdocs
 kramdown:

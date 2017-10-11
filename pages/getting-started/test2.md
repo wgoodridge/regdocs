@@ -10,8 +10,13 @@ department: Department Name
 effectiveDate: mm/dd/yyyy
 number: SOP Number
 ---
+# {{page.title}}
+
+| Header One     | Header Two     |
+| :------------- | :------------- |
+| Item One       | Item Two       |
 
 
 
-this is some text
+this is some text  
 this is more text
