@@ -11,11 +11,11 @@
 <script type="text/javascript">
   // on refresh retrieve nav menu status from session storage useing  jquery
   $(document).ready(function () {
-    var groups = {{site.data.navigation.toc | jsonify }};
+    var groups = {{site.data.base-navbar.toc | jsonify }};
     for (i=0;i< groups.length; i++){
-      if(sessionStorage.getItem(groups[i].title)){
-        var selector = sessionStorage.getItem(groups[i].title);
-        $('#' + groups[i].title).addClass(selector);
+      if(sessionStorage.getItem(groups[i].folder)){
+        var selector = sessionStorage.getItem(groups[i].folder);
+        $('#' + groups[i].folder).addClass(selector);
       }
     }
   });
@@ -33,7 +33,7 @@
     <!--Sidebar  -->
     <div class="w3-col s3 ">
       <div class="">
-        {% include sidebar.html%}
+        {% include base-sidebar.html%}
       </div>
     </div>
     <!--Page Content  -->

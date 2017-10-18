@@ -6,12 +6,15 @@ url: /
 
 ## {{page.title}}
 
-This site contains templates for documenting web applications to meet US FDA and European Union EMA regulations.
+This site contains detailed templates for documenting web applications to meet US FDA and European Union EMA regulations so that you don't have to start from a "_blank slate_" for each new project.
 
-The templates fill the gap between the high-level outlines in the regulatory guidance and information security standards and the detailed procedures, work instructions, and test scripts that are required for compliance and security.
+The templates are based on GAMP5 best practices and the ISO 27001 security standard and can be downloaded and converted to pdf and docx formats. Templates include procedures for setting up quality and information management systems and testing web applications and infrastructure. 
 
-The templates are based on GAMP best practices and the ISO 27001 security standard. For more information on the regulations and standards, see [Regulations](background.html).
+For more information on:
+- The regulations and standards, see [Overview of Regulations](regs-overview.html).
 
-To get started using the templates, see [Getting Started](start.html).
+- Getting started using the templates, see [Quick Start](intro-quickstart.html).
 
-I hope you find the templates useful. They have saved me much time and effort in establishing quality management systems, documenting and testing custom-developed applications, and remediating audit findings.
+- Examples and templates that you can download, see [List of Examples](#examples-overview.html)
+
+- How this site is built, see [About the Site](intro-aboutsite.html)

@@ -1,0 +1,49 @@
+site_list_folder: Practical Regulated Documents
+
+toc:
+- folder: Introduction
+  subfolderitems:
+    - page: Overview
+      url: /intro-overview.html
+    - page: Quickstart
+      url: /intro-quickstart.html
+    - page: About the Site
+      url: /intro-aboutsite.html
+    - page: About the Author
+      url: /intro-aboutauthor.html
+
+- folder: Installation
+  subfolderitems:
+    - page: Installation Overview
+      url: /install-overview.html
+    - page: Install on Windows
+      url: /install-windows.html
+    - page: Install on Linux
+      url: /install-linux.html
+    - page: Install Pandoc
+      url: /install-pandoc.html
+
+- folder: Regulations
+  subfolderitems:
+    - page: Overview of Regulations
+      url: /regs-overview.html
+    - page: 21 CFR Part 11
+      url: /regs-part11.html
+    - page: GAMP5
+      url: /regs-gamp5.html
+    - page: ISO 27001 Security Standard
+      url: /regs-iso27001.html
+- folder: Examples
+  subfolderitems:
+    - page: List of Examples
+      url: /example-list.html
+    - page: Quality Management System
+      url: /example-qms.html
+    - page: Infomation Security Management System
+      url: /example-isms.html
+    - page: Configurable Application
+      url: /example-configapp.html
+    - page: Custom Application
+      url: /example-customapp.html
+    - page: Data Migration
+      url: /example-datamigration.html
