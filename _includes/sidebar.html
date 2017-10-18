@@ -11,14 +11,11 @@
     <div id="{{myvar.title}}" class="w3-hide w3-margin-left ">
       {% for mylink in myvar.subfolderitems %}
         {% if mylink.url == page.url%}
-          <a href="{{site.baseurl}}{{mylink.url}}" class="w3-bar-item w3-button w3-hover-light-grey w3-green">{{mylink.page}}</a>
+          <a href="{{site.baseurl}}{{mylink.url}}" class="w3-bar-item w3-button "><b>{{mylink.page}}</b></a>
         {% else %}
           <a href="{{site.baseurl}}{{mylink.url}}" class="w3-bar-item w3-button w3-hover-light-grey">{{mylink.page}}</a>
         {% endif %}
-
-
       {% endfor %}
     </div>
   {% endfor %}
-
 </div>

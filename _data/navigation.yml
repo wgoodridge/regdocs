@@ -4,7 +4,7 @@ toc:
 - title: Introduction
   subfolderitems:
     - page: Background
-      url: /pages/getting-started/background.html
+      url: /background.html
     - page: Test2
       url: /pages/getting-started/test2.html
     - page: Test3
